@@ -1,0 +1,1 @@
+if (opp != noone) instance_destroy()

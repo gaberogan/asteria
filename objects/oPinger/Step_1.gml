@@ -1,0 +1,1 @@
+opp = colliding_opponent(self)
