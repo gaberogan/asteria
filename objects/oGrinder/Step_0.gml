@@ -4,4 +4,4 @@ image_angle = direction + 90
 
 speed = 2.5
 if distance < 90 speed = 0
-spread_species(self, oGrinder, 200, 1.5)
+spread_species(self)

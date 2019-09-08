@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "d99ee7bf-c768-4e0f-8d5f-1d0fd1575432",
+            "Value": {
+                "id": "d450c38b-3c00-4aa1-aaea-e44bc00d3390",
+                "resourcePath": "scripts\\fire_basic\\fire_basic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e16af5b0-1f42-4a36-b6a7-5e1ca36f0613",
             "Value": {
                 "id": "51ba8696-b0d0-4008-b410-461d72a15b52",
@@ -436,7 +444,8 @@
         "98dbd831-21c8-405a-8f48-d9a37e11b9fe",
         "ab1dac3a-72c4-4acb-a7f1-3b67bcfb4136",
         "3a836588-0022-4958-b0f2-7db04abe3f33",
-        "c3729200-b001-49dd-bf44-fe3e6f82b248"
+        "c3729200-b001-49dd-bf44-fe3e6f82b248",
+        "d99ee7bf-c768-4e0f-8d5f-1d0fd1575432"
     ],
     "tutorial": ""
 }

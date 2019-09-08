@@ -11,7 +11,7 @@ direction = point_direction(x, y, follow.x, follow.y)
 image_angle = aim - 90
 
 // Modify trajectory to stay away from other putters
-if !fleeing spread_species(self, oPutter, 200, 1)
+if !fleeing spread_species(self)
 
 // Set speed
 if fleeing speed = -2

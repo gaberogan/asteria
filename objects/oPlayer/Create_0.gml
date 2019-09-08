@@ -6,4 +6,3 @@ speedLimit = 11.5
 aim = 0
 pow = 0.9
 fireRate = 12
-lastFired = -fireRate

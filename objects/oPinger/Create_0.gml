@@ -1,4 +1,3 @@
-team = 0
 speed = 16
 image_xscale = 8
 image_yscale = 8
