@@ -1,7 +1,5 @@
-// TODO debug collisions
-
 // Spawn environment
-instance_create_layer(0, 0, layer, oStarscape) // TODO background layer for performance
+instance_create_layer(0, 0, layer, oStarscape)
 
 // Spawn ship
 instance_create_layer(room_width / 2, room_height + 200, layer, oPlayer)
