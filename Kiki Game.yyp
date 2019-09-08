@@ -306,7 +306,7 @@
             "Key": "b68cad3b-bb1b-46ac-845d-76417fb6799e",
             "Value": {
                 "id": "767813f0-b000-43ab-b4f2-c84fa6dd1657",
-                "resourcePath": "scripts\\entity_spawn_nearby\\entity_spawn_nearby.yy",
+                "resourcePath": "scripts\\entity_spawn_outofview\\entity_spawn_outofview.yy",
                 "resourceType": "GMScript"
             }
         },
