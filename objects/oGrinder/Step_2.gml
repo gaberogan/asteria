@@ -1,1 +1,1 @@
-if (opp != noone) instance_destroy()
+if (opp != noone) entity_kill(self)

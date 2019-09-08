@@ -1,8 +1,8 @@
 {
-    "id": "3a836588-0022-4958-b0f2-7db04abe3f33",
+    "id": "b68cad3b-bb1b-46ac-845d-76417fb6799e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "destroy_next_frame",
+    "name": "entity_spawn_nearby",
     "IsCompatibility": false,
     "IsDnD": false
 }
