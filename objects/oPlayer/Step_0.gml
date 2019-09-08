@@ -10,8 +10,10 @@ var right = keyboard_check(ord("D")) ? pow : 0
 var dVert = up + down
 var dHorz = left + right
 
-// Movement state
+// Movement sprite
 moving = dVert != 0 || dHorz != 0
+if (moving) image_index = (global.current_frame * 0.1) % 4 + 2
+else image_index = (global.current_frame * 0.1) % 2
 
 // Downscale multidirectional trajectory
 if dVert != 0 && dHorz != 0 {
