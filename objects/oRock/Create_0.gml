@@ -1,7 +1,11 @@
 team = 1
-image_index = 0
+
 image_xscale = 3
 image_yscale = 3
+
+colors = [-1, 0, 2]
+hue = colors[irandom(2)]
+hue_uni = shader_get_uniform(shHue, "Position")
 
 speed  = random_range(0.5, 1.5)
 direction = random_range(0, 360)

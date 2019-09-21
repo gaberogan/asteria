@@ -8,4 +8,8 @@ if global.current_frame % 60 < 20 {
 }
 
 // Collide (last line to avoid side effects)
-if (opp != noone) entity_kill(self)
+if (opp != noone) {
+	var splodey = instance_create_layer(x, y, layer, oSplodey)
+	splodey.sprite_index = sSplodeyPurple
+	entity_kill(self)
+}

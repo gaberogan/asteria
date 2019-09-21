@@ -11,3 +11,5 @@ instance_create_layer(room_width / 2, room_height / 2, layer, oCamera)
 global.entity_count = 0
 max_entities = 50
 entity_pool = [oRock, oRock, oPutter, oGrinder]
+
+repeat 4 entity_spawn_outofview(oRock)
