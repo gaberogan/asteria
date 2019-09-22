@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "27c15ba6-384c-4744-9693-579515712552",
+            "Value": {
+                "id": "621c0949-4396-484d-9474-e2be8b7d7223",
+                "resourcePath": "scripts\\wave\\wave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33920fc9-0636-4797-b575-ce2648b24a47",
             "Value": {
                 "id": "bed05b6a-8769-4b49-afe9-02485f5d79d0",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "a30fe003-ca12-4263-9991-d865bb974900",
+            "Value": {
+                "id": "6253595c-2bf7-43b7-87a7-d7c166809de7",
+                "resourcePath": "sounds\\mLaserLight\\mLaserLight.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a45d6f5b-0c73-491f-99f9-f72476179f7d",
             "Value": {
                 "id": "3f8f10db-8e93-46be-9327-0bdb7ac91e41",
@@ -292,6 +308,14 @@
                 "id": "3b0f6f1d-8d33-4edb-9a25-e8a6ade1b922",
                 "resourcePath": "views\\a5566b06-ee48-4e4e-bd74-aab180b40db3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a7ebdfec-284c-4809-8395-52203223e850",
+            "Value": {
+                "id": "6c0bdf83-8299-4b36-8ba0-0eeeb95fc2eb",
+                "resourcePath": "sounds\\mSmashRock\\mSmashRock.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -502,7 +526,8 @@
         "d99ee7bf-c768-4e0f-8d5f-1d0fd1575432",
         "7ff2c22e-9b50-4e9b-80f8-dcbcab09e24a",
         "5774ecf2-02e2-470f-8e91-40c3f6529b8b",
-        "b68cad3b-bb1b-46ac-845d-76417fb6799e"
+        "b68cad3b-bb1b-46ac-845d-76417fb6799e",
+        "27c15ba6-384c-4744-9693-579515712552"
     ],
     "tutorial": ""
 }

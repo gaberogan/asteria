@@ -17,5 +17,5 @@ void main()
   float chroma = sqrt(yColor.b*yColor.b+yColor.g*yColor.g);
   
   vec3 yFinalColor = vec3(yColor.r, chroma * cos(finalHue), chroma * sin(finalHue));
-  gl_FragColor = vec4(yiq2rgb*yFinalColor, texture2D(gm_BaseTexture, v_vTexcoord).a);
+  gl_FragColor = vec4(yiq2rgb*yFinalColor, texture2D(gm_BaseTexture, v_vTexcoord).a * v_vColour.a);
 }
