@@ -11,5 +11,6 @@ if global.current_frame % 60 < 20 {
 if (opp != noone) {
 	var splodey = instance_create_layer(x, y, layer, oSplodey)
 	splodey.sprite_index = sSplodeyPurple
+	audio_play_sound(mSmashRock, 0, false)
 	entity_kill(self)
 }
