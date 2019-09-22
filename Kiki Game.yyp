@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "301f3d47-1f1b-4911-82a7-f3647ab45978",
+            "Value": {
+                "id": "ae7f7279-454c-4c59-aeab-528333476901",
+                "resourcePath": "scripts\\colliding_enemy_team\\colliding_enemy_team.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33920fc9-0636-4797-b575-ce2648b24a47",
             "Value": {
                 "id": "bed05b6a-8769-4b49-afe9-02485f5d79d0",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "7e23bdf9-7181-4c5b-a8f6-d8df4db7813a",
+            "Value": {
+                "id": "eb859a2b-6b1a-40b7-8341-a547bca986e8",
+                "resourcePath": "scripts\\colliding_player_team\\colliding_player_team.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ff2c22e-9b50-4e9b-80f8-dcbcab09e24a",
             "Value": {
                 "id": "396dbd38-40a5-47ad-91c1-678d9cbae952",
@@ -268,6 +284,14 @@
                 "id": "5b6ef69f-f105-42f1-b077-2ad927908d17",
                 "resourcePath": "views\\8c55ebd3-cc94-4ceb-a409-e0ab98bb0fb8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9355057f-14e4-4c2f-b1c6-4ebc89b7ee4f",
+            "Value": {
+                "id": "4f5cbac5-6666-4988-aac7-4c23a2a3e0fa",
+                "resourcePath": "scripts\\colliding_player_ship\\colliding_player_ship.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -340,14 +364,6 @@
                 "id": "61334f49-cfcf-44d7-892c-891d8c92d180",
                 "resourcePath": "views\\a9d8cd1a-0e00-47d4-ae9d-f8f026236118.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ab1dac3a-72c4-4acb-a7f1-3b67bcfb4136",
-            "Value": {
-                "id": "8a34ea8f-3bae-4d54-a9bf-8f2a62a45c34",
-                "resourcePath": "scripts\\colliding_opponent\\colliding_opponent.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "f305b266-4b09-404f-bc4c-d3bcb02ee557",
+            "Value": {
+                "id": "ed01e117-0569-4f6f-9ef4-fa2636c12580",
+                "resourcePath": "scripts\\colliding_neutral_team\\colliding_neutral_team.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f39297f2-ad62-4830-9770-6cb7870a7549",
             "Value": {
                 "id": "8ff5552d-4d2a-4544-a0b7-e6c2686940f6",
@@ -529,13 +553,16 @@
     ],
     "script_order": [
         "98dbd831-21c8-405a-8f48-d9a37e11b9fe",
-        "ab1dac3a-72c4-4acb-a7f1-3b67bcfb4136",
         "c3729200-b001-49dd-bf44-fe3e6f82b248",
         "d99ee7bf-c768-4e0f-8d5f-1d0fd1575432",
         "7ff2c22e-9b50-4e9b-80f8-dcbcab09e24a",
         "5774ecf2-02e2-470f-8e91-40c3f6529b8b",
         "b68cad3b-bb1b-46ac-845d-76417fb6799e",
-        "27c15ba6-384c-4744-9693-579515712552"
+        "27c15ba6-384c-4744-9693-579515712552",
+        "301f3d47-1f1b-4911-82a7-f3647ab45978",
+        "f305b266-4b09-404f-bc4c-d3bcb02ee557",
+        "7e23bdf9-7181-4c5b-a8f6-d8df4db7813a",
+        "9355057f-14e4-4c2f-b1c6-4ebc89b7ee4f"
     ],
     "tutorial": ""
 }

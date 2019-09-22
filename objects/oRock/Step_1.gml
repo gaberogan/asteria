@@ -1,1 +1,1 @@
-opp = colliding_opponent(self)
+coll = colliding_player_team(self)
