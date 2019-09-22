@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4ba08654-51b3-499d-8de4-901623f3d540",
+            "Value": {
+                "id": "3f92172d-a346-45b4-a83a-83b803578872",
+                "resourcePath": "sprites\\sSplodeyRock\\sSplodeyRock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d2b9f22-8b67-46f0-8fd9-4701a6c059bd",
             "Value": {
                 "id": "660f9d4a-98ae-4321-af4a-095ab5162e38",
