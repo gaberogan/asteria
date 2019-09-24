@@ -9,8 +9,7 @@ if global.current_frame % 60 < 20 {
 
 // Collide (last line to avoid side effects)
 if (opp != noone) {
-	var splodey = instance_create_layer(x, y, layer, oSplodey)
-	splodey.sprite_index = sSplodeyPurple
+	instance_create_layer(x, y, layer, oSplodey)
 	audio_play_sound(mSmashRock, 0, false)
 	entity_kill(self)
 }
