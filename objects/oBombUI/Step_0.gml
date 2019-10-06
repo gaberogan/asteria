@@ -1,0 +1,1 @@
+image_index = min(10, oPlayer.bombCharge)

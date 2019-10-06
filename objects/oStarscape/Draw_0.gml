@@ -1,1 +1,1 @@
-draw_environment(sprite_index, image_index)
+draw_environment(sprite_index, image_index, 6)

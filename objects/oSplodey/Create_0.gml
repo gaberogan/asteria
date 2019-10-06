@@ -1,5 +1,5 @@
-image_xscale = 4
-image_yscale = 4
+image_xscale = 3
+image_yscale = 3
 mask_index = sNull
 
 sprite_pool = [sSplodeyGreen, sSplodeyPink, sSplodeyPurple, sSplodeyTeal]

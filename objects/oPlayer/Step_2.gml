@@ -6,3 +6,8 @@ if mouse_check_button(mb_left) {
 		ammo.team = 0
 	}
 }
+
+// Bomb
+if keyboard_check(vk_space) && bombCharge >= 10 {
+	bombCharge = 0 // TODO the bomb
+}

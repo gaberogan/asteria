@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0dd6127d-39b6-4ae5-99d9-d94642e03db0",
+            "Value": {
+                "id": "77059010-bf83-4bb7-8f8f-03a0a6dbdb51",
+                "resourcePath": "scripts\\transform_1d_clamp\\transform_1d_clamp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0fc3f64d-3c12-4665-947c-5c8ecbd1cbae",
             "Value": {
                 "id": "9df466c8-5fac-4849-8b54-bb22af729377",
@@ -151,11 +159,27 @@
             }
         },
         {
+            "Key": "38720340-92cc-4595-b8c4-d9606dcfce30",
+            "Value": {
+                "id": "fd8410fb-0cc1-410f-a470-07f4d6000d57",
+                "resourcePath": "scripts\\wrap_rect\\wrap_rect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "391610a2-330e-429e-b6b7-3805fc7ea514",
             "Value": {
                 "id": "ee716698-3b20-412b-afbb-72045512a569",
                 "resourcePath": "sprites\\sRock\\sRock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "419cf17b-b61c-4afb-bc82-40be3c49a8e7",
+            "Value": {
+                "id": "d6adcaa1-35b7-4d18-9891-cdb9a7c356c2",
+                "resourcePath": "objects\\oNebula\\oNebula.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -196,6 +220,14 @@
                 "id": "25b807e5-2ade-4552-8a89-5bd57baeb5d4",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5359c5a5-e28e-4c7e-8cd4-463481168bff",
+            "Value": {
+                "id": "98eb60c6-00a1-4ec5-96d2-160e508ccf4d",
+                "resourcePath": "views\\5359c5a5-e28e-4c7e-8cd4-463481168bff.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -263,10 +295,26 @@
             }
         },
         {
+            "Key": "6eddc845-980d-4be8-9a22-4984bb611807",
+            "Value": {
+                "id": "ced87a24-41fb-4f70-b8ae-7a66d82e9adf",
+                "resourcePath": "scripts\\transform_1d\\transform_1d.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7517f0ce-4cc4-4f17-b7fa-9c875f4a6f3e",
             "Value": {
                 "id": "e3751ebc-88f0-41cb-bd57-337d1d0a03a2",
                 "resourcePath": "objects\\oSplodey\\oSplodey.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "75a4ba4e-eedc-4222-8716-b8642b6bc8f5",
+            "Value": {
+                "id": "7b1ada26-0aae-4133-9b01-3fbbd7fb2840",
+                "resourcePath": "objects\\oBombUI\\oBombUI.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -276,6 +324,14 @@
                 "id": "f071cce3-8829-49fa-8269-4519abdb255f",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7b6fb3d0-dc4b-4321-bbe0-d9171d4821c7",
+            "Value": {
+                "id": "d4324007-5ee9-4cfc-bcb2-e4d461bfa7cb",
+                "resourcePath": "sprites\\sBombUI\\sBombUI.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -519,6 +575,14 @@
             }
         },
         {
+            "Key": "ce45b794-c92b-4c65-8f9a-3b771d1f56d2",
+            "Value": {
+                "id": "2abda563-4ed0-48d4-86c0-78020e5a2485",
+                "resourcePath": "sprites\\sNebula\\sNebula.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf6d3b03-223c-40ac-9ff8-2227ef410dd2",
             "Value": {
                 "id": "5f594acd-6737-48d8-8eb7-b73f304d2e0c",
@@ -564,6 +628,14 @@
                 "id": "51ba8696-b0d0-4008-b410-461d72a15b52",
                 "resourcePath": "objects\\oGalaxy\\oGalaxy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e3b9b2b3-f491-4c0a-a173-fc14bf76263a",
+            "Value": {
+                "id": "d98640e5-811a-464b-8b67-67106a509890",
+                "resourcePath": "views\\e3b9b2b3-f491-4c0a-a173-fc14bf76263a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -651,7 +723,10 @@
         "f305b266-4b09-404f-bc4c-d3bcb02ee557",
         "7e23bdf9-7181-4c5b-a8f6-d8df4db7813a",
         "9355057f-14e4-4c2f-b1c6-4ebc89b7ee4f",
-        "e554c51b-2d70-45e9-9819-f229ded99181"
+        "e554c51b-2d70-45e9-9819-f229ded99181",
+        "38720340-92cc-4595-b8c4-d9606dcfce30",
+        "0dd6127d-39b6-4ae5-99d9-d94642e03db0",
+        "6eddc845-980d-4be8-9a22-4984bb611807"
     ],
     "tutorial": ""
 }
