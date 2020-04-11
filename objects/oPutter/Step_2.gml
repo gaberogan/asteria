@@ -7,9 +7,5 @@ if global.current_frame % 60 < 20 {
 	}
 }
 
-// Collide (last line to avoid side effects)
-if (opp != noone) {
-	instance_create_layer(x, y, layer, oSplodey)
-	audio_play_sound(mSmashRock, 0, false)
-	entity_kill(self)
-}
+// Collide (destroy last line to avoid side effects)
+if (opp != noone) entity_kill(self)

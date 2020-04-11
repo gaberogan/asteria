@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "04d42878-b8ee-45f0-8ac5-f21968fab3c6",
+            "Value": {
+                "id": "5deaff14-b46c-4985-b45e-f6991fb105b7",
+                "resourcePath": "scripts\\is_true\\is_true.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0859d0aa-0e6e-4cd4-a29d-1fe39b7af56a",
             "Value": {
                 "id": "a2b42a71-ce53-4ecb-b9d4-9396c3f6e601",
@@ -68,6 +76,14 @@
                 "id": "44474216-736c-447b-91b8-b9626709d51c",
                 "resourcePath": "views\\0d522bf7-824e-407e-9686-7642795c65bc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0d98be8e-c953-4b86-83d6-d9857b5093e0",
+            "Value": {
+                "id": "46288002-d203-431c-b677-b41e9a3ed4ce",
+                "resourcePath": "scripts\\draw\\draw.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "2e189912-f785-4d6f-bde2-9459b0cef2c8",
+            "Value": {
+                "id": "86962352-6662-4ffd-8d8f-dd7f4880d155",
+                "resourcePath": "objects\\oShipHUD\\oShipHUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "301f3d47-1f1b-4911-82a7-f3647ab45978",
             "Value": {
                 "id": "ae7f7279-454c-4c59-aeab-528333476901",
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "378bc903-633b-4cc2-a840-fa32b0022085",
+            "Value": {
+                "id": "028c8886-af29-45ea-9c55-a04c2fc457d4",
+                "resourcePath": "scripts\\array_in\\array_in.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "38720340-92cc-4595-b8c4-d9606dcfce30",
             "Value": {
                 "id": "fd8410fb-0cc1-410f-a470-07f4d6000d57",
@@ -172,6 +204,14 @@
                 "id": "ee716698-3b20-412b-afbb-72045512a569",
                 "resourcePath": "sprites\\sRock\\sRock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3e6535ad-066c-4152-af01-2ace2d9af9c8",
+            "Value": {
+                "id": "9e4f278a-4cb0-420c-b1dd-522ae9538385",
+                "resourcePath": "shaders\\shFill\\shFill.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -623,6 +663,14 @@
             }
         },
         {
+            "Key": "e03e48b3-89c3-4b68-ac3e-52b6461fceba",
+            "Value": {
+                "id": "9af48eae-2f79-4680-a811-5faf18d8f910",
+                "resourcePath": "sprites\\sSplodeyNuke\\sSplodeyNuke.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e16af5b0-1f42-4a36-b6a7-5e1ca36f0613",
             "Value": {
                 "id": "51ba8696-b0d0-4008-b410-461d72a15b52",
@@ -668,6 +716,14 @@
                 "id": "1ce7b23a-9967-48a5-80a7-d20a39392bff",
                 "resourcePath": "sprites\\sSplodeyPinger\\sSplodeyPinger.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1d19c3d-53f9-4278-b286-fe50cac24db8",
+            "Value": {
+                "id": "f6a66de0-086d-47f4-9ee2-7e65960e61df",
+                "resourcePath": "objects\\oNuke\\oNuke.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -726,7 +782,10 @@
         "e554c51b-2d70-45e9-9819-f229ded99181",
         "38720340-92cc-4595-b8c4-d9606dcfce30",
         "0dd6127d-39b6-4ae5-99d9-d94642e03db0",
-        "6eddc845-980d-4be8-9a22-4984bb611807"
+        "6eddc845-980d-4be8-9a22-4984bb611807",
+        "378bc903-633b-4cc2-a840-fa32b0022085",
+        "04d42878-b8ee-45f0-8ac5-f21968fab3c6",
+        "0d98be8e-c953-4b86-83d6-d9857b5093e0"
     ],
     "tutorial": ""
 }

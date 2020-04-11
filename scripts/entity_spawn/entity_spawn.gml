@@ -4,4 +4,5 @@
 /// @param object
 
 global.entity_count++
-return instance_create_layer(argument0, argument1, layer, argument2)
+var instance = instance_create_layer(argument0, argument1, layer, argument2)
+instance.isEntity = true

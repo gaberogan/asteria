@@ -9,5 +9,6 @@ if mouse_check_button(mb_left) {
 
 // Bomb
 if keyboard_check(vk_space) && bombCharge >= 10 {
-	bombCharge = 0 // TODO the bomb
+	// bombCharge = 0
+	instance_create_layer(x, y, "foreground", oNuke)
 }

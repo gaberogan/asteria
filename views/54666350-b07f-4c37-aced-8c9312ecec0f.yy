@@ -9,7 +9,8 @@
         "0fc3f64d-3c12-4665-947c-5c8ecbd1cbae",
         "629af709-2a7e-486b-9cd9-fa562911829b",
         "ad0b79d3-a34e-42dc-9b9b-495b5044c39c",
-        "eb3ec516-2bf0-4182-8593-59027c5cd586"
+        "eb3ec516-2bf0-4182-8593-59027c5cd586",
+        "e03e48b3-89c3-4b68-ac3e-52b6461fceba"
     ],
     "filterType": "GMSprite",
     "folderName": "splodeys",

@@ -1,4 +1,11 @@
-/// @description Move
+/// @description Move + Damage
+
+// Health
+objectFrame++
+if (opp != noone && objectFrame - lastHitFrame > 60) {
+	lastHitFrame = objectFrame
+	health--
+}
 
 // Input
 var up = keyboard_check(ord("W")) ? -pow : 0
@@ -9,11 +16,7 @@ var right = keyboard_check(ord("D")) ? pow : 0
 // Set trajectory
 var dVert = up + down
 var dHorz = left + right
-
-// Movement sprite
 moving = dVert != 0 || dHorz != 0
-if (moving) image_index = (global.current_frame * 0.1) % 4 + 2
-else image_index = (global.current_frame * 0.1) % 2
 
 // Downscale multidirectional trajectory
 if dVert != 0 && dHorz != 0 {

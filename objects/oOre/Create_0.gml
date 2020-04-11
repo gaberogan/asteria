@@ -1,6 +1,7 @@
 team = -1
 follow = oPlayer
 scale = 3
+nukeProof = true
 
 image_xscale = scale
 image_yscale = scale
