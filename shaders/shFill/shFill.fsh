@@ -2,7 +2,7 @@ varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 uniform vec4 Colour;
 
-void main()
+void main() // broken opacity???
 {
 	vec4 tex = v_vColour * texture2D(gm_BaseTexture, v_vTexcoord);
 	float drawa = tex.a * v_vColour.a;
