@@ -1,6 +1,14 @@
-var scale = 7
+var scale = 6
 
 foo = min(1, foo + .01) // 0 to 1
+
+// outline
+draw_sprite_part_ext(
+sCosmicCandy,
+21, 0, 0, 23, 32,
+window_get_width() - 200,
+window_get_height() - 200,
+scale, scale, c_white, 1)
 
 // left
 draw_sprite_part_ext(
@@ -13,7 +21,7 @@ scale, scale, c_white, 1)
 // main
 draw_sprite_part_ext(
 sCosmicCandy,
-1, 0, 0, 23, 30,
+1, 0, 0, 23, 32,
 window_get_width() - 200,
 window_get_height() - 200,
 scale, scale, c_white, 1)

@@ -1,7 +1,7 @@
 // 6 distinct animation frames (off 0/1 on 2/3/4/5)
-var frameTicker = global.current_frame * 0.1
-var animFrame = floor(moving ? frameTicker % 4 + 2 : frameTicker % 2)
-var glowingCore = animFrame == 3 || animFrame == 4
+var frameTicker = floor(global.current_frame * 0.1)
+var animFrame = moving ? frameTicker % 4 + 2 : frameTicker % 2
+var glowingCore = animFrame >= 2
 var engineLevel = animFrame == 5 ? 3 : animFrame
 
 // 6 ship parts
