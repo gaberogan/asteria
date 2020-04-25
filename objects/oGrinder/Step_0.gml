@@ -10,4 +10,4 @@ direction = aim
 speed = 2.5
 if distance < 650 speed = 6
 if distance < 105 speed = 0
-spread_species(self)
+spread_species(self, speed / 2)

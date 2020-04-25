@@ -1,1 +1,2 @@
-foo = 0
+fullyHealed = true
+healAnim = false

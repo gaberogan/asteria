@@ -10,7 +10,7 @@ image_angle = aim - 90
 direction = aim
 
 // Modify trajectory to stay away from others
-if !fleeing spread_species(self)
+if !fleeing spread_species(self, 2)
 
 // Set speed
 if fleeing speed = -4

@@ -5,6 +5,8 @@
 var sprite = argument0
 var frame = argument1
 
+shader_set(shOutline)
+
 upixelH = shader_get_uniform(shOutline, "pixelH")
 upixelW = shader_get_uniform(shOutline, "pixelW")
 

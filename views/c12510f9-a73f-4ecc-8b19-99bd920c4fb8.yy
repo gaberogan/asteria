@@ -6,7 +6,8 @@
     "children": [
         "d49bc3c2-77d4-425b-ba4b-cf3ef50889ca",
         "e16af5b0-1f42-4a36-b6a7-5e1ca36f0613",
-        "419cf17b-b61c-4afb-bc82-40be3c49a8e7"
+        "419cf17b-b61c-4afb-bc82-40be3c49a8e7",
+        "eaee4339-0506-4dba-81ad-b66f0d99c130"
     ],
     "filterType": "GMObject",
     "folderName": "starscape",

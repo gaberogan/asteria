@@ -6,10 +6,15 @@ speedLimit = 11.5
 aim = 0
 pow = 0.9
 fireRate = 12
-bombCharge = 10
-health = 3
+bombCharge = 9
+maxHealth = 3
+health = maxHealth
+_health = maxHealth // gms is annoying
 lastHitFrame = -999
+hitAgo = 999
 objectFrame = 0
+invincibilityFrames = 100
+healFrames = 450
 
 instance_create_layer(0, 0, "ui", oBombUI)
 instance_create_layer(0, 0, "ui", oShipHUD)

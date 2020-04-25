@@ -2,10 +2,17 @@
 
 // Health
 objectFrame++
-if (opp != noone && objectFrame - lastHitFrame > 60) {
+hitAgo = objectFrame - lastHitFrame
+if (health < maxHealth && hitAgo > 0 && hitAgo % healFrames == 0) health++
+if (opp != noone && hitAgo >= invincibilityFrames) {
 	lastHitFrame = objectFrame
+	hitAgo = objectFrame - lastHitFrame
 	health--
+	if (health < 0) health = 0 // todo die if health = 0
 }
+_health = health
+
+
 
 // Input
 var up = keyboard_check(ord("W")) ? -pow : 0
