@@ -1,10 +1,10 @@
 var scale = 6
-var hp = oPlayer._health
+var hp = oPlayer.hp
 var healFrames = oPlayer.healFrames
 var hitAgoModHeal = oPlayer.hitAgo % healFrames
 
-if (!fullyHealed && hp == oPlayer.maxHealth) healAnim = true
-fullyHealed = hp == oPlayer.maxHealth
+if (!fullyHealed && hp == oPlayer.maxHp) healAnim = true
+fullyHealed = hp == oPlayer.maxHp
 
 // outline
 

@@ -4,8 +4,8 @@ aim = -90
 image_index = 0
 image_xscale = 3
 image_yscale = 3
-health = 1
-max_health = 1
+hp = 1
+maxHp = 1
 
 shield = instance_create_layer(x, y, layer, oGrinderShield)
 shield.parent = self

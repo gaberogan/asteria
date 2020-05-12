@@ -3,14 +3,13 @@
 // Health
 objectFrame++
 hitAgo = objectFrame - lastHitFrame
-if (health < maxHealth && hitAgo > 0 && hitAgo % healFrames == 0) health++
+if (hp < maxHp && hitAgo > 0 && hitAgo % healFrames == 0) hp++
 if (opp != noone && hitAgo >= invincibilityFrames) {
 	lastHitFrame = objectFrame
 	hitAgo = objectFrame - lastHitFrame
-	health--
-	if (health < 0) health = 0 // todo die if health = 0
+	hp--
+	if (hp < 0) hp = 0 // todo die if health = 0
 }
-_health = health
 
 
 
