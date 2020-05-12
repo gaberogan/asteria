@@ -12,7 +12,7 @@ trajectory = lerp(trajectory, trajectory + trajDif, 0.015)
 direction = trajectory
 
 // Modify trajectory to stay away from others
-spread_species(self, 3)
+spread_species(self, 2)
 
 // final constant speed
 speed = 6
