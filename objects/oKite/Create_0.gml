@@ -5,3 +5,5 @@ image_xscale = 3
 image_yscale = 3
 aim = 0
 trajectory = 0
+health = 3
+max_health = 3
