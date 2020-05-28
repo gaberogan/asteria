@@ -55,6 +55,13 @@
             }
         },
         {
+            "Key": "0659dd06-334a-49d6-840f-22b83d6115d0",
+            "Value": {
+                "id": "2348464c-18db-4af9-a946-3446dc1a95fa",
+                "resourcePath": "objects\\oLaser\\oLaser.yy",
+                "resourceType": "GMObject"
+            }
+        },
         {
             "Key": "0859d0aa-0e6e-4cd4-a29d-1fe39b7af56a",
             "Value": {
