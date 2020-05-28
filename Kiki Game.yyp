@@ -55,6 +55,7 @@
             }
         },
         {
+        {
             "Key": "0859d0aa-0e6e-4cd4-a29d-1fe39b7af56a",
             "Value": {
                 "id": "a2b42a71-ce53-4ecb-b9d4-9396c3f6e601",
@@ -108,6 +109,22 @@
                 "id": "b6c6532e-7e5d-46a5-8cf8-d74d10461b1f",
                 "resourcePath": "views\\1341613e-4b6c-4a57-a5c3-2f232e62da36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "15b10a28-356b-4478-9ca6-877491b8dc57",
+            "Value": {
+                "id": "e07e9c4d-5bdf-4b17-bf4f-56fea38dd6c7",
+                "resourcePath": "objects\\oOneTit\\oOneTit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "196aef60-c854-4317-8bbf-0cdf07d202e1",
+            "Value": {
+                "id": "2bc4a7ab-f220-479a-91d3-43bdab361ae4",
+                "resourcePath": "sprites\\sOneTit\\sOneTit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +189,14 @@
                 "id": "ae7f7279-454c-4c59-aeab-528333476901",
                 "resourcePath": "scripts\\colliding_enemy_team\\colliding_enemy_team.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3206fdad-1fb5-46fa-b304-4f72ef09bf1e",
+            "Value": {
+                "id": "816fed52-d19e-4223-938a-9deb11da3897",
+                "resourcePath": "objects\\oEyeball\\oEyeball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -423,6 +448,14 @@
             }
         },
         {
+            "Key": "7e831bb3-6fb9-4eb4-8488-1497df2a70ff",
+            "Value": {
+                "id": "4cbefaf4-5660-4cf7-b2f3-bde66bf031e2",
+                "resourcePath": "sprites\\sThinLaser\\sThinLaser.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ff2c22e-9b50-4e9b-80f8-dcbcab09e24a",
             "Value": {
                 "id": "396dbd38-40a5-47ad-91c1-678d9cbae952",
@@ -492,6 +525,14 @@
                 "id": "3ed3c108-1f89-4558-aaf6-125a0fc18969",
                 "resourcePath": "views\\95fbd88f-ea74-4c37-895b-30f4907b9c78.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98774309-02e3-45e4-b185-77d5fcce4344",
+            "Value": {
+                "id": "aae36fd0-3ffc-40c5-9fc8-42f99c01e823",
+                "resourcePath": "sprites\\sEyeball\\sEyeball.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

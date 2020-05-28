@@ -1,0 +1,9 @@
+team = 0 // default
+speed = 0
+image_xscale = 6
+image_yscale = 6
+image_index = 0
+image_speed = 0
+explode = false
+current_frame = 0
+duration = 30

@@ -1,0 +1,1 @@
+opp = colliding_enemy_team(self)

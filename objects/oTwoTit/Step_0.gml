@@ -1,4 +1,4 @@
-// Distance and flee mode
+// Distance
 var dist = point_distance(x, y, follow.x, follow.y)
 
 // Lerp rotation
