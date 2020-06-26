@@ -1,18 +1,12 @@
-/// @description Returns the closest collision from a team object to an enemy team object
-/// @param object
+/// @description Returns the closest collision from an object to an enemy team object
+/// @param self
 
 with (argument0) {
-	if (!variable_instance_exists(self, "team") || team < 0) return noone
+	var inst = instance_place(x, y, all) // NOTE while colliding with non-enemy invincible maybe
 
-	var collisions = ds_list_create()
-	var numCollisions = instance_place_list(x, y, all, collisions, true)
-
-	var i = 0
-	for(i = 0; i < numCollisions; i++) {
-	    with (collisions[| i]) {
-			if (variable_instance_exists(self, "team") && team >= 0 && team != other.team) {
-				return self
-			}
+	with inst {
+		if (variable_instance_exists(self, "team") && team == 1) {
+			return self
 		}
 	}
 

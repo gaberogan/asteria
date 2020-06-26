@@ -1,4 +1,4 @@
-team = 0 // default
+team = 1
 speed = 16
 image_xscale = 6
 image_yscale = 6

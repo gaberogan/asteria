@@ -3,16 +3,11 @@
 /// @param force
 
 with argument0 {
-	var colliders = ds_list_create()
-	var numCollisions = collision_circle_list(x, y, 200, object_index, false, true, colliders, true)
-	if numCollisions > 0 {
-		var c = colliders[| 0]
-		var dir = point_direction(c.x, c.y, x, y)
-		var dist = point_direction(c.x, c.y, x, y)
+	var xx = argument1
+	spread_frame = !variable_instance_exists(self, "spread_frame") ? 0 : spread_frame + 1
+	spread_dir = spread_frame % 15 == 0 || !variable_instance_exists(self, "spread_dir") ? random(20) - 10 : spread_dir
+	spread_force = spread_frame % 15 == 0 || !variable_instance_exists(self, "spread_force") ? random(3) - 1 : spread_force
 
-		var force = transform_1d_clamp(dist, 175, 200, argument1, 0)
-
-		hspeed += lengthdir_x(force, dir)
-		vspeed += lengthdir_y(force, dir)
-	}
+	direction += spread_dir
+	speed += spread_force
 }

@@ -1,20 +1,7 @@
-/// @description Returns the closest collision from a team object to a player team object
-/// @param object
+/// @description Returns the closest collision from an object to a player team object
+/// @param self
 
-with (argument0) {
-	if (!variable_instance_exists(self, "team")) return noone
-
-	var collisions = ds_list_create()
-	var numCollisions = instance_place_list(x, y, all, collisions, true)
-
-	var i = 0
-	for(i = 0; i < numCollisions; i++) {
-	    with (collisions[| i]) {
-			if (variable_instance_exists(self, "team") && team == 0) {
-				return self
-			}
-		}
-	}
-
-	return noone
+with argument0 {
+	var objectsToCheck = [oPlayer, oNuke, oPingerPlayer]
+	return collision_with_objects(argument0, objectsToCheck, [0])
 }

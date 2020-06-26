@@ -6,3 +6,4 @@ image_yscale = 3
 aim = 0
 hp = 2
 maxHp = 2
+current_frame = 0
