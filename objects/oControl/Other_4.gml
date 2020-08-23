@@ -6,7 +6,7 @@ layer_create(10, "background")
 // Spawn environment
 instance_create_layer(0, 0, "background", oStarscape)
 
-// Initialize cameradsaaaaaaa
+// Initialize camera
 instance_create_layer(room_width / 2, room_height / 2, layer, oCamera)
 
 // Spawn ship
@@ -15,7 +15,7 @@ instance_create_layer(room_width / 2, room_height / 2, layer, oPlayer)
 // Spawn parameters
 global.entity_count = 0
 max_entities = 70
-entity_pool = [oPutter, oKite]//[oRock, oKite, oPutter, oGrinder]
+entity_pool = [oEyeball, oTwoTit, oRock, oKite, oPutter, oGrinder]
 
 /*entity_spawn_outofview(oRock)
 entity_spawn_outofview(oRock)

@@ -13,6 +13,6 @@ direction = aim
 if !fleeing spread_species(self, 2)
 
 // Set speed
-if fleeing speed = -4
-else if (dist > 500) speed = 4
+if fleeing speed = -6
+else if (dist > 500) speed = 6
 else speed = 0
