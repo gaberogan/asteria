@@ -1,8 +1,12 @@
 {
-    "id": "b688d072-b8a4-4c52-98a2-d3642723c421",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "shader_set_outline",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "shader_set_outline",
+  "tags": [],
+  "resourceType": "GMScript",
 }

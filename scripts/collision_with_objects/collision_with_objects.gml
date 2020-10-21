@@ -2,19 +2,23 @@
 /// @param self
 /// @param objects
 /// @param teams
+function collision_with_objects(argument0, argument1, argument2) {
 
-with argument0 {
-	var numObjects = array_length_1d(argument1)
-	var i = 0
-	for(i = 0; i < numObjects; i++) {
-		var inst = instance_place(x, y, argument1[i])
-		if inst == noone continue
-		with inst {
-			if (variable_instance_exists(self, "team") && find_index(argument2, team) != -1) {
-				return self
+	with argument0 {
+		var numObjects = array_length_1d(argument1)
+		var i = 0
+		for(i = 0; i < numObjects; i++) {
+			var inst = instance_place(x, y, argument1[i])
+			if inst == noone continue
+			with inst {
+				if (variable_instance_exists(self, "team") && find_index(argument2, team) != -1) {
+					return self
+				}
 			}
 		}
+
+		return noone
 	}
 
-	return noone
+
 }

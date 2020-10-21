@@ -1,8 +1,12 @@
 {
-    "id": "6b61e24c-55b5-4806-a1bc-fa67e47c0d0b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "draw_health",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "draw_health",
+  "tags": [],
+  "resourceType": "GMScript",
 }

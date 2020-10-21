@@ -1,8 +1,12 @@
 {
-    "id": "378bc903-633b-4cc2-a840-fa32b0022085",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "array_in",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "array_in",
+  "tags": [],
+  "resourceType": "GMScript",
 }

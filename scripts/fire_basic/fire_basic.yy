@@ -1,8 +1,12 @@
 {
-    "id": "d99ee7bf-c768-4e0f-8d5f-1d0fd1575432",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "fire_basic",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "fire_basic",
+  "tags": [],
+  "resourceType": "GMScript",
 }
